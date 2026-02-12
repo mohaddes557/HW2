@@ -1,0 +1,52 @@
+nav {
+  background-color: rgb(13, 9, 57);
+  padding: 15px;
+}
+.navbar{
+  list-style: none;
+  display: flex;
+ justify-content: center;
+ gap: 30px;
+ margin: 0;
+ padding: 0;
+
+}
+
+.navbar li a {
+  color:beige;
+  text-decoration: none;
+  font-size: 18px;
+}
+h1{
+  color: rgb(13, 9, 57);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h3, h2{
+  color: rgb(13, 9, 57);
+}
+
+form{
+  text-align: center;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:20px ;
+
+}
+.mood{
+  width:80%;
+  border-radius: 8px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+img{
+  width: 310px;
+  height: 360px;
+  border-radius: 20px;
+
+}
